@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="coctail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="245px" height="325px" viewBox="72.5 163 245 325" enable-background="new 72.5 163 245 325" xml:space="preserve">
+<radialGradient id="drink_1_" cx="218.2012" cy="262.1836" r="121.5388" gradientTransform="matrix(1.2138 0 0 -1.0785 -70.5523 611.3208)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.0061" style="stop-color:#F9ED32"/>
+	<stop  offset="0.2182" style="stop-color:#FBB040"/>
+	<stop  offset="0.4182" style="stop-color:#F7941E"/>
+	<stop  offset="0.6667" style="stop-color:#F26522"/>
+	<stop  offset="1" style="stop-color:#EF4136"/>
+</radialGradient>
+<path id="drink" fill="url(#drink_1_)" stroke="#A7A9AC" stroke-width="7.0866" stroke-miterlimit="10" d="M285.338,357.198
+	c-22.821-38.912-13.556-139.656-5.949-181.982c-26.625-3.414-65.05,13.653-93.625,13.653c-14.921,0-54.03-0.683-67.976-13.946
+	c3.218,16.189,23.503,103.377,3.901,119.763c-19.896,32.476-41.839,62.513-43.79,101.427
+	c-3.803,79.483,123.664,104.841,188.323,72.656C330.979,438.341,313.913,404.598,285.338,357.198z"/>
+</svg>

@@ -1,0 +1,172 @@
+body {
+  /*width: 100%;
+  height: 100%;*/
+  overflow: hidden;
+}
+
+
+.beach {
+    /*background-color: #2E3192;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../gfx/beach2.svg) scroll no-repeat;
+    background-color: #2E3192;
+    background-size: cover;
+    background-position: center;
+    z-index: -9999;
+}
+#palm {
+    position: absolute;
+    left: -500px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -9990;
+}
+
+#water {
+  position: fixed;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    /*height: 100%;*/
+    z-index: -9999;
+    animation: move_water 8000ms infinite ease-in-out alternate;
+}
+
+@keyframes move_water {
+    50% {top: 45%;}
+    100% {top: 55%;}
+}
+
+#copacabanaa {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  width: 40%;
+  height: 40%;
+  z-index: -9999;
+
+}
+
+.glasscontainer {
+  position: absolute;
+  width: 500px;
+  height: 1000px;
+  top: 0;
+  left: 45%;
+  z-index: 9990;
+
+}
+
+#umbrella {
+  position: absolute;
+    left: 0px;
+    top: -500px;
+    animation: move_umbrella 4500ms 2500ms infinite ease-in-out alternate;
+}
+
+@keyframes move_umbrella {
+    0% {left: 1000px; top: -300px; transform: rotate(360deg);}
+    100% {left: 30px; top: 120px; transform: rotate(0deg);}
+}
+
+#sipper {
+  position: absolute;
+  left: -70px;
+  top: 130px;
+  animation: move_sipper 5000ms infinite ease-in-out alternate;
+}
+
+@keyframes move_sipper {
+    0% {left: -1000px; top: -900px; transform: rotate(-130deg);}
+    100% {left: -40px; top: 110px; transform: rotate(0deg);}
+}
+
+#cherry {
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  animation: move_cherry 5000ms infinite ease-in-out alternate;
+}
+
+@keyframes move_cherry {
+    0% {left: 500px; top: -300px; transform: rotate(90deg);}
+    25% {left: -150px; top: 70px; transform: rotate(-120deg); }
+    100% {left: 40px; top: 200px; transform: rotate(-360deg); }
+}
+
+#ice1 {
+  position: absolute;
+  left: 70px;
+  top: 370px;
+  z-index: 999;
+  animation: move_ice1 5000ms infinite ease-in-out alternate;
+}
+
+@keyframes move_ice1 {
+    0% {left: 69px; top: 369px; transform: rotate(-50deg); }
+        100% {left: 70px; top: 370px; transform: rotate(0deg);}
+}
+
+#ice2 {
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  z-index: 999;
+  animation: move_ice2 5000ms infinite ease-in-out alternate;
+}
+
+@keyframes move_ice2 {
+    0% {left: 99px; top: 449px; transform: rotate(50deg); }
+        100% {left: 100px; top: 450px; transform: rotate(0deg);}
+}
+
+#lemon {
+  position: absolute;
+  left: 70px;
+  top: 500px;
+  z-index: 999;
+  animation: move_lemon 4000ms infinite ease-in-out alternate;
+  }
+
+@keyframes move_lemon {
+    0% {left: 75px; top: 450px; transform: rotate(90deg); }
+    49,5% {left: 65px; top: 480px; transform: rotate(15deg); }
+    100% {left: 70px; top: 500px; transform: rotate(0deg);}
+}
+
+#glass1drink {
+  position: absolute;
+  left: 0px;
+  top: 290px;
+  }
+
+
+#glass2leg {
+  position: absolute;
+  left: 10px;
+  top: 597px;
+}
+
+@media screen and (orientation:portrait) {
+
+  #water {
+    position: fixed;
+      left: 0px;
+      top: 50%;
+      width: 100%;
+      /*height: 100%;*/
+      z-index: -9999;
+      animation: move_water 8000ms infinite ease-in-out alternate;
+  }
+
+  @keyframes move_water {
+      50% {top: 55%;}
+      100% {top: 65%;}
+  }
+
+}
